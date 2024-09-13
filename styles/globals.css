@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500&display=swap');
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+#container{
+  height: 100%;
+}
+
+#Menutitle{
+  font-family: 'Quicksand', sans-serif; /* 'Pacifico', cursive; */
+  font-weight: 550;
+  font-size: 24px;
+  display:none;
+}
+
+.noEvent{
+  font-family: 'Quicksand', sans-serif; /* 'Pacifico', cursive; */
+  text-align: center;
+  margin-top: 50px;
+}
+
+.footerlink{
+  font-family: 'Quicksand', sans-serif; /* 'Pacifico', cursive; */
+  font-size: 20px;
+}
+
+.categoryBack{
+  background-image: url(https://res.cloudinary.com/ignitouch/image/upload/v1624384299/backgrounds/back4_ararmw.jpg);
+
+    /* Full height */
+    height: 100%; 
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.greyBack{
+  background-image: url(https://res.cloudinary.com/ignitouch/image/upload/v1624384095/backgrounds/back8_qtuccf.jpg);
+
+    /* Full height */
+    height: 100%; 
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.eventBack{
+  background-image: url(https://res.cloudinary.com/ignitouch/image/upload/v1624384066/backgrounds/back11_l4ed1u.jpg);
+
+    /* Full height */
+    height: 100%; 
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.productBack{
+  background-image: url(https://res.cloudinary.com/ignitouch/image/upload/v1624383321/backgrounds/back6_gknmfm.jpg);
+
+    /* Full height */
+    height: 100%; 
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+@media (max-width: 770px) {
+  #Menutitle{
+    display:inline;
+    font-size: 15px;
+  } 
+
+  #logo{
+    display:none;
+  } 
+  .footerlink{
+    font-size: 12px;
+  }
+
+  #container{
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+
+  .noEvent{
+    font-family: 'Quicksand', sans-serif; /* 'Pacifico', cursive; */
+    font-size: 25px;
+  }
+
+  .categoryBack{
+    background-image:none
+  }
+  
+  .greyBack{
+    background-image:none
+  }
+  
+  .eventBack{
+    background-image:none
+  }
+  
+  .productBack{
+    background-image:none
+  }
+}
+
